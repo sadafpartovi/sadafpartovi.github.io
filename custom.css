@@ -52,6 +52,10 @@ nav a {
 
 }
 
+#scroll:hover {
+  cursor: pointer;
+}
+
 .about-sadaf{
   
   margin-top: 20%;
