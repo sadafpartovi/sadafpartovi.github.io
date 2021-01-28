@@ -1,0 +1,329 @@
+
+body{
+    background-color: #fff3eb;
+    color: #150060;
+    font-family: 'PT Serif', serif;
+    
+}
+
+/* navbar */
+
+nav a {
+ color: #150060 !important;
+}
+
+.diff-font{
+    font-family: 'Caveat', cursive;
+    
+}
+
+.navbar-toggler{
+    color: #150060;
+    background-color: #fff3eb;
+}
+
+.bg-light{
+    background-color: #fff3eb !important;
+
+}
+
+
+
+
+/* heading */
+.jumbotron{
+    background-color: #fff3eb !important;
+    color: #150060!important;
+  background-image: url(https://static.wixstatic.com/media/933d68_a670a18001924e9c89acc4fc0c81c1dc~mv2.gif);
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 7em;
+    position: relative;
+    justify-content: space-between;
+    
+    
+
+}
+
+.about-sadaf{
+  
+  margin-top: 20%;
+
+}
+
+.sadaf-p{
+  
+  text-align: center;
+ 
+  
+ 
+  
+
+}
+
+
+
+
+.scrollCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 24px;
+    height: 24px;
+  }
+
+  .chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+  }
+  
+  .chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+  }
+
+  .chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+  }
+  
+  .chevron:before,
+  .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #150060;
+  }
+  
+  .chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+  }
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+  }
+
+  @keyframes move {
+    25% {
+      opacity: 1;
+  
+    }
+    33% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    67% {
+      opacity: 1;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+  }
+
+/* portfolio */
+
+.portfolio-heading{
+    color: #150060 !important;
+    
+
+}
+
+
+
+.card{
+    background-color: #fff3eb !important;
+    border: none !important;
+
+}
+
+
+
+
+.card .img{
+   
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    opacity:0;
+    
+
+}
+
+
+
+.card:hover .btn  {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff3eb;
+    color: #150060 ;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+   
+   
+    
+  }
+
+
+  /* contact */
+
+
+
+
+
+
+
+button:focus{
+  box-shadow: none !important;
+  outline:none !important;
+}
+
+
+ .add-bg,
+  footer,
+  form{
+    position: relative; 
+    
+    
+  }
+
+
+  .add-bg::before {
+    background-image: url(https://static.wixstatic.com/media/933d68_a670a18001924e9c89acc4fc0c81c1dc~mv2.gif);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    opacity: 0.1;
+    background-repeat: no-repeat;
+  
+    
+  }
+
+  .contact-text{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding: 0;
+    text-align: center;
+
+  }
+
+  form{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-btn {
+    border-radius: 50%;
+    width: 10%;
+    color: #150060 !important;
+    background-image: url(https://static.wixstatic.com/media/933d68_5be69fcfaebb4d4a9b40bc7e9c6de62f~mv2.gif);
+    background-size: cover;
+    text-align: center;
+    margin-top: -.2rem !important;
+    background-color: #fff3eb;
+    font-size: 25px;
+    border-style: none !important;
+    text-decoration: none;
+   
+  }
+
+
+  .contact-btn:focus{
+    color: #150060;
+    
+
+  }
+  form{
+    text-align: center;
+  }
+
+  
+  
+  /* social icon */
+
+  footer{
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
+    
+    
+  }
+
+
+   .fa-linkedin-in {
+    
+    float: right;
+    margin-left: 1rem;
+    
+   }
+  
+   .fa-instagram{
+    margin-right: 1rem;
+   
+     
+   }
+
+   i {
+    color: #150060;
+    
+    
+   }
+
+   /* footer */
+   .footer{
+     color: #fff3eb;
+     background-color: #ffb6b6;
+     width: 100vw;
+     padding: .8em;
+     margin: 0 auto;
+     display: block;
+    } 
+   /* /footer */
+
+
+
+
+  
+    
+    
+   
+
+
+ 
+
+  
+
+  
+
+
+
